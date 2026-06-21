@@ -21,7 +21,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding: 40px 20px;
             overflow-x: hidden;
             position: relative;
         }
@@ -94,18 +94,29 @@
             z-index: 1;
         }
 
-        /* Steady Bold Header Font Styling */
-        .profile h1 {
-            font-family: 'Anton', sans-serif; /* Applied heavy, steady bold font */
-            font-size: 34px; /* Scaled up nicely for the new block style */
-            font-weight: 400;
-            margin-bottom: 12px;
+        /* Headlines Styling (Profiles & Events) */
+        h1, h2 {
+            font-family: 'Anton', sans-serif;
             color: #ffffff;
             letter-spacing: 1.5px;
             text-transform: uppercase;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
             position: relative;
             z-index: 1;
+        }
+
+        .profile h1 {
+            font-size: 34px;
+            margin-bottom: 12px;
+        }
+
+        /* Section Title for Events */
+        .section-title {
+            font-size: 28px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 30px;
         }
 
         .profile p {
@@ -167,8 +178,8 @@
         }
 
         /* Footer Styling */
-        view-footer {
-            margin-top: 35px;
+        footer {
+            margin-top: 40px;
             font-size: 11px;
             color: #cccccc;
             letter-spacing: 1px;
@@ -196,6 +207,10 @@
             <a href="https://instagram.com/one.sssssh._" target="_blank" class="link-btn">@one.sssssh._</a>
             <a href="https://instagram.com/core.thngs" target="_blank" class="link-btn">@core.thngs</a>
             <a href="https://instagram.com/about.c2" target="_blank" class="link-btn">@about.c2</a>
+            
+            <h2 class="section-title">EVENTS</h2>
+            
+            <a href="#" target="_blank" class="link-btn">🎟️ FRESHERS (Coming Soon)</a>
         </main>
 
         <footer>
